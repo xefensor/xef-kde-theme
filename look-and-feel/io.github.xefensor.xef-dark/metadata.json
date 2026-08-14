@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "Xefensor"
+      }
+    ],
+    "Description": "Dark variant of the Xef KDE desktop theme",
+    "Id": "io.github.xefensor.xef-dark",
+    "Name": "Xef Dark",
+    "Version": "0.1.0",
+    "Website": "https://github.com/xefensor/xef-kde-theme"
+  }
+}
