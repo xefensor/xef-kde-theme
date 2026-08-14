@@ -1,0 +1,6 @@
+# Keep the package intentionally minimal until the rest of the theme is chosen.
+# Additional sections can later set ColorScheme, Plasma Style, cursor theme,
+# window decoration, wallpaper, splash screen, and other defaults.
+
+[kdeglobals][Icons]
+Theme=Papirus-Dark-Colorful
