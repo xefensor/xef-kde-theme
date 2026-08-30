@@ -1,5 +1,5 @@
 # Plasma Style
 
-Workspace for the Plasma desktop style used by Xef Dark and Xef Light.
+Xef Dark and Xef Light currently share KDE's externally installed Breeze Plasma Style (`name=default`). It follows the selected KDE color scheme, so no style assets are duplicated here.
 
-Keep this empty until the style is deliberately chosen. If a custom/forked style is added, Plasma 6 desktop themes belong under `~/.local/share/plasma/desktoptheme/` when installed locally.
+If reproduction later requires custom assets, a matching pair or a single color-scheme-aware style can be added under `plasma/desktoptheme`; until then Breeze is the audited choice.

@@ -1,5 +1,5 @@
 # Task switchers
 
-Workspace for any KWin Alt+Tab/task-switcher theme that becomes part of Xef KDE Theme.
+Both variants reference the external Breeze switcher implementation through the audited Global Theme identifier `org.kde.breeze.desktop`.
 
-Leave this as a dependency/reference if an existing switcher already fits the design.
+No KWin switcher assets are bundled.

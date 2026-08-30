@@ -11,29 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate Plasma 6 package metadata
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          expected = {
-              "io.github.xefensor.xef-dark": "Papirus-Dark-Colorful",
-              "io.github.xefensor.xef-light": "Papirus-Light-Colorful",
-          }
-
-          root = Path("look-and-feel")
-          for package_id, icon_theme in expected.items():
-              package = root / package_id
-              metadata = json.loads((package / "metadata.json").read_text())
-              assert metadata["KPackageStructure"] == "Plasma/LookAndFeel"
-              assert metadata["KPlugin"]["Id"] == package_id
-
-              defaults = (package / "contents" / "defaults").read_text()
-              assert f"Theme={icon_theme}" in defaults
-
-          print("Global Theme package structure is valid")
-          PY
-
-      - name: Validate shell scripts
-        run: bash -n scripts/*.sh
+      - name: Validate both Global Themes and color schemes
+        run: bash scripts/validate.sh

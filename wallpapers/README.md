@@ -1,5 +1,5 @@
 # Wallpapers
 
-Workspace for wallpapers or Plasma wallpaper packages used by Xef Dark and Xef Light.
+No wallpaper is bundled or selected. The audited desktop uses personal-image slideshows, which cannot be safely or privately packaged.
 
-A shared wallpaper is fine if both variants use the same one; otherwise keep explicit light/dark assets here.
+A shared wallpaper or a licensed dark/light pair may be added later, but no placeholder is included.

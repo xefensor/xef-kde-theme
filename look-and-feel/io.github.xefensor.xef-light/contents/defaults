@@ -1,6 +1,47 @@
-# Keep the package intentionally minimal until the rest of the theme is chosen.
-# Additional sections can later set ColorScheme, Plasma Style, cursor theme,
-# window decoration, wallpaper, splash screen, and other defaults.
+[kdeglobals][General]
+ColorScheme=XefLight
+AccentColor=18,123,220
+accentColorFromWallpaper=false
+font=Ubuntu,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=Ubuntu,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Ubuntu,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=Ubuntu,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+fixed=Ubuntu Mono,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+XftAntialias=true
+XftHintStyle=hintslight
 
 [kdeglobals][Icons]
 Theme=Papirus-Light-Colorful
+
+[kdeglobals][KDE]
+widgetStyle=Breeze
+
+[kdeglobals][WM]
+activeFont=Ubuntu,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+
+[breezerc][Common]
+OutlineEnabled=false
+OutlineIntensity=OutlineOff
+ShadowSize=ShadowSmall
+
+[breezerc][Windeco]
+DrawBackgroundGradient=true
+
+[plasmarc][Theme]
+name=default
+
+[kcminputrc][Mouse]
+cursorTheme=Hackneyed-Dark
+
+[kwinrc][DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze
+
+[ksplashrc][KSplash]
+Theme=org.kde.breeze.desktop

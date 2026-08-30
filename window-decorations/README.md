@@ -1,5 +1,5 @@
 # Window decorations
 
-Workspace for the window-decoration choice or any future custom Aurorae/KWin decoration assets.
+Both variants reference the external Breeze KWin decoration (`library=org.kde.breeze`, `theme=Breeze`). Its geometry is shared and its colors follow the selected Xef scheme.
 
-Do not bundle a decoration here until we decide whether the theme should depend on an existing decoration, fork one, or provide its own.
+No Aurorae or decoration assets are bundled.

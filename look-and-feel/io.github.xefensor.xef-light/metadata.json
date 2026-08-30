@@ -6,10 +6,11 @@
         "Name": "Xefensor"
       }
     ],
-    "Description": "Light variant of the Xef KDE desktop theme",
+    "Description": "Light variant of the Xef Plasma 6 desktop theme",
     "Id": "io.github.xefensor.xef-light",
     "Name": "Xef Light",
-    "Version": "0.1.0",
+    "Version": "0.2.0",
     "Website": "https://github.com/xefensor/xef-kde-theme"
-  }
+  },
+  "X-Plasma-APIVersion": "2"
 }
